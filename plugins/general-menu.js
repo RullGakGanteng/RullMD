@@ -8,9 +8,9 @@ import moment from 'moment-timezone'
 let tags = {}
 const defaultMenu = {
   before: `\n> Date: %date\n> Time: %time \n> Runtime: %uptime\n%readmore`,
-  header: '*❏═┅═━–〈 %category*',
-  body: '┊› %cmd %islimit %isPremium',
-  footer: '',
+  header: '*୨ %category* ୧',
+  body: '⪧ %cmd %islimit %isPremium',
+  footer: '\n',
   after: '',
 }
 
