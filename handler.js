@@ -741,7 +741,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/4b90043328ec4825c0e71.jpg")
+                .setBackground("https://telegra.ph/file/d2e6cd997b481953a9b20.jpg")
                 .toAttachment()
 
               let lea = await new knights.Goodbye()
@@ -750,7 +750,7 @@ export async function participantsUpdate({ id, participants, action }) {
                 .setGuildIcon(ppgc)
                 .setMemberCount(groupMetadata.participants.length)
                 .setAvatar(pp)
-                .setBackground("https://telegra.ph/file/4b90043328ec4825c0e71.jpg")
+                .setBackground("https://telegra.ph/file/d2e6cd997b481953a9b20.jpg")
                 .toAttachment()
                             
                         // this.sendFile(id, action === 'add' ? wel : lea, pp, 'pp.jpg', text, null, false, { mentions: [user] })
