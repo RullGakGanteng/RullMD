@@ -4,7 +4,6 @@ const rewards = {
   potion: 900000000,
   legendary: 9000000,
   mythic: 9000000000,
-  level: 9000000,
 }
 const cooldown = 86400000
 let handler = async (m,{ conn} ) => {
@@ -22,7 +21,7 @@ let handler = async (m,{ conn} ) => {
 handler.help = ['ownerclaim', 'oc']
 handler.tags = ['owner']
 handler.command = /^(ownerclaim)$/i
-handler.botAdmin = true
+handler.owner = true
 
 handler.cooldown = cooldown
 
