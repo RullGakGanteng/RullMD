@@ -56,7 +56,7 @@ ${tfpets}` : ''}
 ⮕ ᴛʀᴀɴsғᴇʀ ᴍᴏɴᴇʏ|ɪᴛᴇᴍ|ᴄʀᴀᴛᴇ ᴛᴏ ᴜsᴇʀ:
 ${usedPrefix}${command} [name] [quantity] @user
 ★ ᴇxᴀᴍᴩʟᴇ:
-${usedPrefix}${command} money 999 @${_package.name}
+${usedPrefix}${command} money 999 @MoonBot
 `.trim()
     const type = (args[0] || '').toLowerCase()
     if (!item.includes(type)) return conn.sendButton(m.chat, '*–––––『 TRANSFER 』–––––*', lol, './media/transfer.jpg', [
